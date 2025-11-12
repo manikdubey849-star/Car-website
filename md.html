@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MD Designs — Cars</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="md.html" class="brand-link">MD <span>Designs</span></a>
+      </div>
+
+      <nav class="main-nav">
+        <a href="md.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <button id="musicToggle" class="music-btn">Play Music</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h1>Speed. Luxury. Craft.</h1>
+        <p class="lead">A curated showroom of the world’s finest cars — BMW, Bugatti, Koenigsegg & Rolls-Royce. Built by <strong>Manik Dubey</strong>.</p>
+        <p class="hero-actions">
+          <a href="gallery.html" class="btn primary">Enter Gallery</a>
+          <a href="about.html" class="btn ghost">About MD</a>
+        </p>
+      </div>
+
+      <div class="hero-right">
+        <!-- large car image -->
+        <div class="car-card">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80" alt="Sports car">
+          <div class="car-caption">Featured — Supercars Collection</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shows container">
+      <h2 class="section-title">Latest Clips</h2>
+      <div class="shows-row">
+        <div class="show-card">
+          <img src="https://images.unsplash.com/photo-1517949908119-cbdc2d70f1a6?auto=format&fit=crop&w=800&q=60" alt="BMW">
+          <div class="show-info">
+            <h3>BMW Highlights</h3>
+            <p>Performance & design highlights.</p>
+            <a href="gallery.html#bmw" class="btn small">Watch</a>
+          </div>
+        </div>
+
+        <div class="show-card">
+          <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=800&q=60" alt="Bugatti">
+          <div class="show-info">
+            <h3>Bugatti Power</h3>
+            <p>Top speeds & records.</p>
+            <a href="gallery.html#bugatti" class="btn small">Watch</a>
+          </div>
+        </div>
+
+        <div class="show-card">
+          <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=60" alt="Koenigsegg">
+          <div class="show-info">
+            <h3>Koenigsegg Hypercars</h3>
+            <p>Engineering mastery.</p>
+            <a href="gallery.html#koenigsegg" class="btn small">Watch</a>
+          </div>
+        </div>
+
+        <div class="show-card">
+          <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=60" alt="Rolls">
+          <div class="show-info">
+            <h3>Rolls-Royce Luxury</h3>
+            <p>Craft & comfort.</p>
+            <a href="gallery.html#rolls" class="btn small">Watch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 MD Designs — Project Created by <strong>Manik Dubey</strong></p>
+    </div>
+  </footer>
+
+  <!-- audio (put theme.mp3 in same folder) -->
+  <audio id="bgMusic" src="theme.mp3" loop preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
